@@ -1131,6 +1131,9 @@ section {
     .latest-update-min .transportation-grid-item-01 .content {
       background: #fff;
     }
+    .latest-update-min figcaption.content a h5.title {
+      color: #f26f2e !important;
+    }
 
 .transportation-grid-item-01 {
   line-height: 1; }
@@ -1819,7 +1822,7 @@ section.latest-update figcaption.content a {
     margin-top: 0;
     padding-top: 18px;
     padding-bottom: 15px;
-    color: #F05A28;
+    color: #fff;
     font-size: 20px;
     line-height: 22px;
     display: -webkit-box;
@@ -2080,6 +2083,10 @@ section.story figure.transportation-grid-item-01 {
       text-align: left;
       max-width: 65%;
     }
+    section.carousel_home.details-news .carousel .carousel-inner .carousel-item .carousel-caption .style-2.small {
+      max-width: 45%;
+      font-size: 36px;
+    }
 section.details-news h1 {
   font-size: 94px;
   line-height: 94px;
@@ -2104,6 +2111,16 @@ section.details-news .desc {
   margin-left: auto;
   margin-right: auto;
   line-height: normal; }
+section.details-news .desc .img-scale-small {
+  transform: scale(1.15);
+  margin-top: 14%;
+  margin-bottom: 14%;
+}
+section.details-news .desc .img-scale-big {
+  transform: scale(1.5);
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
 .details-news-back {
   margin-top: 90px;
   margin-bottom: 90px;
@@ -2194,6 +2211,10 @@ nav a:hover {
   text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
+
+.no-border {
+  border: none !important;
+}
 
 @media (min-width: 1200px) {
   .container {
