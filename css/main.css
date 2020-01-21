@@ -1563,7 +1563,7 @@ section.header-style {
 .section-title.text-center.style-3 h2 span {
   background: #fffff7;
   font-size: 23px;
-  padding: 0 15px; }
+  padding: 0 30px; }
 
 .carousel-news button:focus {
   outline: 0; }
@@ -1913,14 +1913,10 @@ footer .follow_sosmed {
 
 section.carousel_home.page {
   padding-bottom: 0; }
-  section.carousel_home.page .carousel {
-    max-height: 610px; }
-    section.carousel_home.page .carousel .carousel-inner {
-      max-height: 610px; }
-      section.carousel_home.page .carousel .carousel-inner .carousel-item {
-        max-height: 610px; }
         section.carousel_home.page .carousel .carousel-inner .carousel-item .carousel-caption {
-          bottom: 180px; }
+          top: 50%;
+          bottom: unset;
+          transform: translateY(-50%); }
         section.carousel_home.page .carousel .carousel-inner .carousel-item .carousel-caption h5.style-2 {
           font-size: 65px;
           text-align: left !important;
@@ -1938,7 +1934,7 @@ section.carousel_home.page {
   margin-top: -165px; }
 
 section.page-section .tab-pane {
-  padding: 20px 60px;
+  padding: 20px 30px;
   text-align: justify; }
   section.page-section .tab-pane p {
     color: #fff; }
@@ -1953,38 +1949,41 @@ section.page-section .section-title.text-center.style-4 h3 {
   line-height: 0.1em;
   margin: 10px 0 20px;
   padding: 25px; }
-section.page-section nav {
-  border-bottom: 1px solid #fff; }
   section.page-section nav .nav.nav-tabs {
     border-bottom: 0;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content; }
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; }
+    section.page-section nav .nav.nav-tabs::before, section.page-section nav .nav.nav-tabs::after {
+      display: none;
+    }
     section.page-section nav .nav.nav-tabs .nav-item.nav-link {
+      flex: unset;
+      width: 160px;
       color: #fff;
       background-color: transparent;
       border-color: transparent;
-      font-size: 18px;
+      font-size: 20px;
       -webkit-transition: all 0.3s ease-in-out 0s;
       -moz-transition: all 0.3s ease-in-out 0s;
       -ms-transition: all 0.3s ease-in-out 0s;
       -o-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s;
       margin-bottom: 10px;
-      margin-right: 95px;
-      margin-left: 95px;
       /*text-transform: uppercase;*/ }
       section.page-section nav .nav.nav-tabs .nav-item.nav-link.active {
         color: #fff;
         background-color: transparent;
         border-color: transparent;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 600;
         border-bottom: 3px solid #fff;
         flex: unset;
-        margin-right: 95px;
-        margin-left: 95px;
         /*text-transform: uppercase;*/ }
       section.page-section nav .nav.nav-tabs .nav-item.nav-link:hover {
         font-weight: 600;
@@ -2103,7 +2102,8 @@ section.details-news .desc {
   line-height: 35px; }
 
 section.story .search-box {
-  width: 600px;
+  padding: 0 30px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto; }
   section.story .search-box .input-group span.icon {
