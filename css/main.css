@@ -1124,6 +1124,14 @@ section {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
 
+    .latest-update-min .transportation-grid-item-01 {
+      border: 1px solid #cacaca;
+    }
+
+    .latest-update-min .transportation-grid-item-01 .content {
+      background: #fff;
+    }
+
 .transportation-grid-item-01 {
   line-height: 1; }
 
@@ -1801,13 +1809,17 @@ section.latest-update figcaption.content .d-flex {
     display: block;
     font-weight: 100;
     width: 100%; }
+    section.latest-update-min figcaption.content .read-more {
+      color: #447dcd;
+      font-weight: 600;
+    }
 section.latest-update figcaption.content a {
   text-decoration: none; }
   section.latest-update figcaption.content a h5.title {
     margin-top: 0;
-    padding-top: 15px;
+    padding-top: 18px;
     padding-bottom: 15px;
-    color: #fff;
+    color: #F05A28;
     font-size: 20px;
     line-height: 22px;
     display: -webkit-box;
