@@ -411,7 +411,6 @@
     padding-right: 0; }
 
   section.trip-issue {
-    margin-top: -140px;
     padding-bottom: 0px; }
 
   section.transportation-guide {
@@ -558,7 +557,7 @@
     padding: 25px; }
 
   section.carousel_home.page .carousel .carousel-inner .carousel-item .carousel-caption {
-    bottom: 75px; }
+    bottom: 0; }
 
   section.carousel_home.page.details .carousel-caption h5 {
     font-size: 19px;
@@ -593,14 +592,19 @@
     font-size: 25px;
     font-weight: 600;
     text-align: left !important;
+    line-height: normal;
     padding: 40px 19px 23px 0; }
+
+    section.details-news.wpt {
+      padding-top: 0 !important;
+    }
 
   .col-9.login-register {
     opacity: 0 !important; }
 
   section.carousel_home.page .carousel .carousel-inner .carousel-item .carousel-caption h5.style-2 {
-    height: 60px;
-    font-size: 25px;
+    height: auto;
+    font-size: 20px;
     width: 100%; }
 
   .desc {
@@ -616,6 +620,30 @@
   .page-section nav .container {
     padding: 0; }
     .page-section nav .container .nav-tabs a {
-      padding: 10px; } }
+      padding: 10px; }
+
+      section.carousel_home.details-news .carousel .carousel-inner .carousel-item .carousel-caption .style-2.small {
+        max-width: 100%;
+      }
+
+      section.details-news .desc .img-scale-big,
+      section.details-news .desc .img-scale-small {
+        transform: unset;
+        margin: 10px 0;
+      }
+
+      section.page-section nav .nav.nav-tabs {
+        padding: 0;
+      }
+
+      section.page-section nav .nav.nav-tabs .nav-item.nav-link {
+        width: 50%;
+      }
+
+      .transportation-guide .transportation-grid-item-01 .image img {
+        height: 300px;
+        margin-bottom: 15px;
+      }
+}
 
 /*# sourceMappingURL=responsive.css.map */
