@@ -2136,6 +2136,7 @@ section.story .search-box {
   top: 0;
   left: 0;
   width: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,0.46) 0%, rgba(0,0,0,0) 100%);
 }
 
 /* .header-style .sticky .logo img {
