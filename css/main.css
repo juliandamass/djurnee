@@ -2094,11 +2094,20 @@ section.carousel_home.page.details .carousel-caption {
     overflow: hidden;
     text-overflow: ellipsis; }
 
+    section.details-news {
+      padding-top: 230px !important;
+    }
 section.details-news h1 {
-  font-size: 65px;
+  font-size: 94px;
+  line-height: 94px;
+  text-transform: uppercase;
+  color: #202020;
   font-weight: 600;
   text-align: left !important;
-  padding: 40px 75px 40px 0; }
+  padding-bottom: 40px; }
+section.details-news .detail-news-subtitle {
+  margin-bottom: 60px;
+}
 section.details-news img.img-responsive.custom-size {
   width: 500px;
   margin-left: auto;
@@ -2111,7 +2120,16 @@ section.details-news .desc {
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
-  line-height: 35px; }
+  line-height: normal; }
+.details-news-back {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.details-news-back .btn-primary-02 {
+  padding-right: 60px;
+  padding-left: 60px;
+}
 
 section.story .search-box {
   padding: 0 30px;
