@@ -1929,15 +1929,6 @@ section.carousel_home.page {
           top: 50%;
           bottom: unset;
           transform: translateY(-50%); }
-        section.carousel_home.page .carousel .carousel-inner .carousel-item .carousel-caption h5.style-2 {
-          font-size: 65px;
-          text-align: left !important;
-          width: 545px;
-          height: 165px;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-          text-overflow: ellipsis; }
         section.carousel_home.page .carousel .carousel-inner .carousel-item .carousel-caption h5 {
           padding-right: 0;
           text-align: center; }
@@ -2075,27 +2066,19 @@ section.story figure.transportation-grid-item-01 {
 .pb-150 {
   padding-bottom: 150px; }
 
-section.carousel_home.page.details .carousel {
-  max-height: 610px !important; }
-section.carousel_home.page.details .carousel-inner {
-  max-height: 610px !important; }
-section.carousel_home.page.details .carousel-item {
-  max-height: 610px !important; }
-section.carousel_home.page.details .carousel-caption {
-  bottom: 25px !important; }
-  section.carousel_home.page.details .carousel-caption h5 {
-    font-size: 22px;
-    width: 335px;
-    text-align: justify !important;
-    display: -webkit-box;
-    height: 82px;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis; }
-
-    section.details-news {
+    section.details-news.wpt {
       padding-top: 230px !important;
+    }
+    section.carousel_home.details-news .carousel .carousel-inner .carousel-item .carousel-caption {
+      top: unset;
+      bottom: 20px;
+      transform: unset;
+      left: 5% !important;
+      right: 5% !important;
+    }
+    section.carousel_home.details-news .carousel .carousel-inner .carousel-item .carousel-caption .style-2 {
+      text-align: left;
+      max-width: 65%;
     }
 section.details-news h1 {
   font-size: 94px;
